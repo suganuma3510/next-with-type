@@ -1,12 +1,20 @@
 name: deploy Vercel
 
+# 手動で実行
+# on:
+#  workflow_dispatch:
+#    inputs:
+#      ref:
+#        description: branch|tag|SHA to checkout
+#        default: "master"
+#        required: true
+
+# masterにプルリクしマージした場合実行
 on:
-  workflow_dispatch:
-    inputs:
-      ref:
-        description: branch|tag|SHA to checkout
-        default: "master"
-        required: true
+  pull_request:
+    branches:
+      - master
+    types: [closed]
 
 jobs:
   deploy:
