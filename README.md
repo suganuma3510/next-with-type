@@ -28,6 +28,10 @@
 
 - GitHub Actions
 
+#### クラウドプラットフォーム
+
+- Vercel
+
 ## 参考文献
 
 Next.js
@@ -38,6 +42,8 @@ Next.js
 GitHub Actions
 
 [GitHub Actions 入門](https://docs.github.com/ja/actions/learn-github-actions/introduction-to-github-actions)  
-[Node.js のビルドとテスト](https://docs.github.com/ja/actions/guides/building-and-testing-nodejs)
+[Node.js のビルドとテスト](https://docs.github.com/ja/actions/guides/building-and-testing-nodejs)  
+[Vercel の定期デプロイを GitHub Actions で実現する nikaeraさんによる記事 zenn.dev](https://zenn.dev/nikaera/articles/vercel-github-actions)  
+[Vercel CLI 使ってみる](https://neos21.net/blog/2020/11/23-03.html)
 
 
